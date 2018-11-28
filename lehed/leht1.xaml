@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="ülesanne1.lehed.leht1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ülesanne1.lehed"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#FF006FC1"/>
+        <Pivot Padding="10" VerticalAlignment="Center">
+            <PivotItem Header="Tab">
+            </PivotItem>
+            <PivotItem Header="Tab">
+            </PivotItem>
+            <PivotItem Header="Tab">
+            </PivotItem>
+            <PivotItem Header="Tab">
+            </PivotItem>
+            <PivotItem Header="Tab">
+            </PivotItem>
+        </Pivot>
+        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Center" Orientation="Horizontal">
+            <Button Background="#FF006FC1" Margin="10" Click="MainPage">
+                <SymbolIcon Symbol="More"/>
+            </Button>
+        </StackPanel>
+        <StackPanel Grid.Row="1" VerticalAlignment="Center">
+            <TextBlock Margin="20" FontSize="20">Page Title</TextBlock>
+        </StackPanel>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel>
+                <Image VerticalAlignment="Top" Margin="10" Source="/Assets/phonepicutres.jpg"></Image>
+            </StackPanel>
+                <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Image VerticalAlignment="Top" Margin="10" Source="/Assets/f9seR.jpg"/>
+                <Image VerticalAlignment="Top" Margin="10" Grid.Row="1" Source="/Assets/5acadc92f3c7d.image.jpg"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

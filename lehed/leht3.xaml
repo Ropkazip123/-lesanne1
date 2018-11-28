@@ -1,0 +1,49 @@
+﻿<Page
+    x:Class="ülesanne1.lehed.leht3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ülesanne1.lehed"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <ScrollViewer>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <GridViewItem Grid.ColumnSpan="3" Margin="20,20,20,0">
+                <Image Source="/Assets/apps.40220.14094456225993959.a47326ce-82fd-41b0-a049-f8af309c82f7.jpg"/>
+            </GridViewItem>
+            <GridViewItem Grid.RowSpan="2" Grid.Row="1" Margin="20" Grid.Column="2">
+                <Image Source="/Assets/Bubble_Witch_Saga_3_604x423.jpg"/>
+            </GridViewItem>
+            <GridViewItem Background="#FFE2E2E2" Grid.Row="1" Margin="20,20,20,0">
+                <TextBlock>Menukamad rakendused</TextBlock>
+            </GridViewItem>
+            <GridViewItem Background="#FFE2E2E2" Grid.Row="2" Margin="20,20,20,0">
+                <TextBlock>Menukamad mängud</TextBlock>
+            </GridViewItem>
+            <GridViewItem Background="#FFE2E2E2" Grid.Column="1" Grid.Row="1" Margin="20,20,20,0">
+                <TextBlock>Esiletõstetud</TextBlock>
+            </GridViewItem>
+            <GridViewItem Background="#FFE2E2E2" Grid.Column="1" Grid.Row="2" Margin="20,20,20,0">
+                <TextBlock>kogud</TextBlock>
+            </GridViewItem>
+
+        </Grid>
+    </ScrollViewer>
+
+</Page>  
+                
+
+                    
